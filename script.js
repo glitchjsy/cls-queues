@@ -1,4 +1,6 @@
-const url = "https://sojpublicdata.blob.core.windows.net/cls/queues.json";
+// const url = "https://sojpublicdata.blob.core.windows.net/cls/queues.json";
+// Bypass CORS
+const url = "https://corsproxy.io/?https%3A%2F%2Fsojpublicdata.blob.core.windows.net%2Fcls%2Fqueues.json";
 
 const categoriesElement = document.getElementById("categories");
 const defaultGridElement = document.getElementById("default-grid");
