@@ -112,6 +112,6 @@ const formatDateHumanReadable = (dateInput, time = true) => {
 
 updateQueues();
 
-setTimeout(() => {
+setInterval(() => {
     updateQueues();
 }, 5 * 1000);
